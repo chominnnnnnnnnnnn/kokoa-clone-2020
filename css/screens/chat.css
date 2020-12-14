@@ -130,10 +130,11 @@
 }
 
 .reply input {
-  padding: 12px;
+  padding: 14px;
   width: 100%;
   border: var(--main-border);
-  border-radius: 20px;
+  border-radius: 25px;
+  box-sizing: border-box;
 }
 
 .reply__column:last-child > i,
@@ -151,8 +152,8 @@
 .reply__column button {
   background-color: var(--yellow);
   border: none;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
