@@ -1,3 +1,16 @@
+body {
+  height: 1000vh;
+}
+
+.settings-list--second {
+  margin-top: 20px;
+}
+
+.settings-list .settings__setting:last-child,
+.settings-list--second .settings__setting:last-child {
+  padding-bottom: 40px;
+}
+
 .settings__setting {
   padding: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -11,6 +24,19 @@
   opacity: 0.8;
   margin-right: 20px;
   font-size: 22px;
+}
+
+.settings-list--second .settings__setting-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-list--second .badge {
+  width: 17px;
+  height: 17px;
+  margin-left: 5px;
+  font-size: 5px;
 }
 
 .settings__setting-column:last-child {
